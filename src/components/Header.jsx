@@ -14,9 +14,9 @@ export default function Header({ favoriteCount, showFavoritesOnly, onToggleFavor
       </div>
 
       <div className="header-actions">
-        <a href="#" className="home-link" onClick={(e) => { e.preventDefault(); window.location.reload(); }}>
-          Home
-        </a>
+     <a href="/" className="home-link">
+  Home
+</a>
 
         <button
           onClick={onToggleFavoritesView}
